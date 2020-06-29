@@ -19,7 +19,7 @@ print(apple_1.color, orange_1.color)
 apple_2 = fruit("red", 2, 3)
 orange_2 = copy.copy(apple_2)
 apple_2.color = "orange"
-print("After shallow copy: ")
+print("After shallow copy: ", apple_2.color, orange_2.color)
 
 
 # test deep copy
